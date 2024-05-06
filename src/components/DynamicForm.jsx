@@ -210,7 +210,7 @@ function DynamicForm() {
       )}
       {finishingForm && (
         <div className='finishingText'>
-          <p className='text1'>Votre réservation a bien été prise en compte. <br/> Vous serez contacté dans <span className='stressed'>un délai de 48H.</span></p>
+          <p className='text1'>Votre réservation a bien été prise en compte.</p><p>Vous serez contacté dans <span className='stressed'>un délai de 48H.</span></p>
           <div className='text2'><p>L’équipe Alfa Romeo, vous remercie.</p></div>
         </div>
       )}
